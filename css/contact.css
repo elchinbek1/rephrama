@@ -1,0 +1,151 @@
+.contacts {
+  padding: 20px 0;
+}
+
+.contacts .container {
+  padding: 20px 0;
+  background: #fff;
+  position: relative;
+  top: -50px;
+}
+
+.contacts .container .contact {
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #071223;
+  font-family: 'g-r';
+  font-size: 15px;
+}
+
+.contacts .container .contact img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.contacts .container .contact p {
+  width: auto;
+}
+
+.contacts .container .tel {
+  font-family: 'u-b';
+}
+
+.contacts .container .submit {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFB95B), to(#FF8A2C));
+  background: -o-linear-gradient(top, #FFB95B 0%, #FF8A2C 100%);
+  background: linear-gradient(180deg, #FFB95B 0%, #FF8A2C 100%);
+  -webkit-box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.25);
+          box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  padding: 20px 30px;
+  border: none;
+  width: 100%;
+  color: #fff;
+  font-family: 'g-m';
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contacts .container .submit:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFB95B), to(#FF8A2C));
+  background: -o-linear-gradient(bottom, #FFB95B 0%, #FF8A2C 100%);
+  background: linear-gradient(0deg, #FFB95B 0%, #FF8A2C 100%);
+}
+
+.contacts .container .form-title {
+  font-size: 22px;
+  font-family: 'u-s';
+  color: #ffffff;
+}
+
+.contacts .container textarea {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  opacity: 0.8;
+}
+
+.contacts .container textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contacts .container textarea::-moz-placeholder {
+  color: #fff;
+}
+
+.contacts .container textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contacts .container textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contacts .container textarea::placeholder {
+  color: #fff;
+}
+
+.contacts .container textarea:focus {
+  opacity: 1;
+}
+
+.contacts .container input {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  opacity: 0.8;
+}
+
+.contacts .container input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contacts .container input::-moz-placeholder {
+  color: #fff;
+}
+
+.contacts .container input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contacts .container input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contacts .container input::placeholder {
+  color: #fff;
+}
+
+.contacts .container input:focus {
+  opacity: 1;
+}
+
+.contacts .container form {
+  padding: 60px 20px;
+  background: #429FA4;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.contacts .container .contact-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contacts .container .form-col {
+  margin-bottom: 50px;
+}

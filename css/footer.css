@@ -1,0 +1,101 @@
+footer {
+  padding: 30px 0;
+  background: #071223;
+}
+
+footer .logo p {
+  color: #ffffff;
+  font-family: 'u-b';
+  font-size: 22px;
+}
+
+footer .privacy {
+  color: #D0E3E4;
+  font-size: 12px;
+}
+
+footer .footer__social a {
+  background: #50545a;
+  padding: 5px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer__social a img {
+  width: 20px;
+  height: 20px;
+}
+
+footer .ul__foot li {
+  margin-bottom: 10px;
+}
+
+footer .ul__foot li a {
+  color: #ffffff;
+  font-family: 'u-r';
+  position: relative;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer .ul__foot li a::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: #429fa4;
+}
+
+footer .ul__foot li a:hover {
+  text-decoration: none;
+  color: #429fa4;
+}
+
+footer .foot__contact .phone img {
+  color: #429FA4;
+}
+
+footer .foot__contact .phone p {
+  font-family: 'u-s';
+  color: #ffffff;
+  font-size: 18px;
+}
+
+footer .foot__contact .header__email {
+  color: #D0E3E4;
+  font-size: 13px;
+}
+
+footer .foot__contact .header__email:hover {
+  text-decoration: none;
+}
+
+footer .foot__contact .location {
+  color: #D0E3E4;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  footer .foot-left {
+    margin-bottom: 30px;
+  }
+
+  footer .foot-center {
+    margin-bottom: 30px;
+  }
+
+  footer .foot-right {
+    margin-bottom: 30px;
+  }
+}
